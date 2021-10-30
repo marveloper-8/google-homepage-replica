@@ -1,0 +1,200 @@
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+nav .logo{
+    margin-left: 12px;
+    height: 24px;
+}
+
+nav .item{
+    margin-left: 15px;
+    cursor: pointer;
+    color: #000;
+}
+
+nav .item:last-child{
+    margin-right: 15px;
+}
+
+nav .icons-container{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav .item2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+    cursor: pointer;
+    transition: .25s ease-in-out all;
+}
+
+nav .item2:hover{
+    background: #dadada;
+    transition: .25s ease-in-out all;
+}
+
+nav .item2 .icon{
+    width: 24px;
+    height: 24px;
+}
+
+nav .item2 .profile-picture{
+    width: 32px;
+    height: 32px;
+    background: #000;
+    border-radius: 50%;
+}
+
+section.app-bar{
+    padding: 25px 35px;
+    color: #d93025;
+    font-size: 20px;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+main{
+    height: 90vh;
+}
+
+section.action{
+    padding: 20px;
+}
+
+form{
+    padding: 40px 45px;
+}
+
+form section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 16px;
+    align-items: center;
+    height: 42px;
+}
+
+form .title{
+    font-size: 16px;
+    color: #333;
+}
+
+form .subtitle{
+    font-size: 13px;
+    color: #777;
+    font-weight: 700;
+}
+
+form .label{
+    color: #222;
+    font-size: 13px;
+}
+
+form .label2{
+    color: #555;
+    font-size: 11px;
+}
+
+form .label2 .sublabel{
+    color: #666;
+    font-family: monospace;
+}
+
+form input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+form .icons-container{
+    display: flex;
+}
+
+form .icon{
+    width: 24px;
+    height: 24px;
+    padding: 0 8px;
+}
+
+form .camera{
+    display: inline-block;
+    background: url(//www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png) 0 0 no-repeat;
+    background-size: 24px;
+}
+
+form .colored{
+    color: #4285f4;
+}
+
+form .submit{
+    text-align: right;
+}
+
+form .submit button{
+    background: #4d90fe;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 12px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+
+footer{
+    background: #f2f2f2;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadce0;
+    padding: 0 15px;
+    align-items: center;
+}
+
+footer section:last-child{
+    border: none;
+}
+
+footer section .link{
+    color: #70757a;
+    padding: 15px;
+    display: inline-block;
+}
+
+footer section .icon{
+    margin-right: 6px;
+    height: 12px;
+}

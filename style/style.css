@@ -1,0 +1,205 @@
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15px;
+}
+
+nav .item{
+    margin-left: 15px;
+    cursor: pointer;
+    color: #000;
+}
+
+nav .item:last-child{
+    margin-right: 15px;
+}
+
+nav .icons-container{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav .item2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+    cursor: pointer;
+    transition: .25s ease-in-out all;
+}
+
+nav .item2:hover{
+    background: #dadada;
+    transition: .25s ease-in-out all;
+}
+
+nav .item2 .icon{
+    width: 24px;
+    height: 24px;
+}
+
+nav .item2 .profile-picture{
+    width: 32px;
+    height: 32px;
+    background: #000;
+    border-radius: 50%;
+}
+
+main{
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form.action{
+    padding: 20px;
+}
+
+section.main{
+    text-align: center;
+}
+
+.images{
+    position: relative;
+    display: inline-block;
+}
+
+.images img.hero-image{
+    height: 92px;
+}
+
+.images .text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    white-space: nowrap;
+    color: #4285f4;
+    font-size: 16px;
+}
+
+.form{
+    display: block;
+}
+
+.form{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 584px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    transition: .2s ease-in-out all;
+    cursor: default;
+}
+
+.form:hover{
+    transition: .2s ease-in-out all;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+
+.form input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.form .icons-container{
+    display: flex;
+}
+
+.form .icon{
+    width: 24px;
+    height: 24px;
+    padding: 0 8px;
+}
+
+.form .camera{
+    display: inline-block;
+    background: url(//www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png) 0 0 no-repeat;
+    background-size: 24px;
+}
+
+.form .colored{
+    color: #4285f4;
+}
+
+.button-container{
+    padding-top: 18px;
+    text-align: center;
+}
+
+.action .button-container .button{
+    margin: 11px 4px;
+    padding: 0 16px;
+    outline: none;
+    border: none;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.languages{
+    font-size: 12px;
+}
+
+.languages .link{
+    padding: 0 3px;
+    color: #1a0dab;
+}
+
+footer{
+    background: #f2f2f2;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadce0;
+    padding: 0 15px;
+    align-items: center;
+}
+
+footer section:last-child{
+    border: none;
+}
+
+footer section .link{
+    color: #70757a;
+    padding: 15px;
+    display: inline-block;
+}
+
+footer section .icon{
+    margin-right: 6px;
+    height: 12px;
+}
