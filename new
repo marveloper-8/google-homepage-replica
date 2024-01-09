@@ -1,0 +1,98 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="telephone=no" name="format-detection">
+  <title></title>
+  <style>
+    html{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      padding: 0!important;
+      margin: 0!important;
+    }
+    body{
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      padding: 0!important;
+      margin: 0!important;
+    }
+
+
+    nav{
+      background-color: purple;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: bolder;
+      padding-inline: 30px;
+    }
+    nav h1{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    nav img {
+      width: 70px;
+    }
+    nav ul{
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    section{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+      margin-block: 50px;
+      padding-inline: 50px;
+    }
+    section div{
+      background-color: gold;
+      padding: 20px;
+    }
+
+    footer{
+      padding: 20px;
+      height: 150px;
+      background: #000;
+    }
+  </style>
+</head>
+ <body class="body">
+  <nav>
+    <h1>
+      <img class="logo" src="https://fbpibpl.stripocdn.email/content/guids/CABINET_73fd985c591d50198acaf293a2e5663e439f41024fcacd2e7142caa4f93aa564/images/logo_WY0.png" alt="" width="150">
+      SOVEREIGN LIGHT INTERNATIONAL SCHOOL
+    </h1>
+    <ul>
+      <li>Register Now</li>
+      <li>Online Lessons</li>
+      <li>About Us</li>
+      <li>Sign Up Now</li>
+    </ul>
+  </nav>
+  <section class="content">
+    <div>ing cloud sent rock death charge various sport prevent variety afraid body equal gentle population brief desert particularly post mix meat solution happened some ever bank poor lower symbol queen lot handsome return pleasure wall image chamber hand plane headed frighten star past end worker jungle sheep valuable earlier leaf pile fort section point pound neighbor away broken agree great gulf difficulty log instrument operation whether speak require whistle stronger no taste musical syllable order met every surrounded task truth guard monkey did inch women properly student possibly rocket route living itself moon floor border mile park however neighborhood chemical gentle differ private color natural touch naturally cloth mud like</div>
+    <div>ing cloud sent rock death charge various sport prevent variety afraid body equal gentle population brief desert particularly post mix meat solution happened some ever bank poor lower symbol queen lot handsome return pleasure wall image chamber hand plane headed frighten star past end worker jungle sheep valuable earlier leaf pile fort section point pound neighbor away broken agree great gulf difficulty log instrument operation whether speak require whistle stronger no taste musical syllable order met every surrounded task truth guard monkey did inch women properly student possibly rocket route living itself moon floor border mile park however neighborhood chemical gentle differ private color natural touch naturally cloth mud like</div>
+    <div>ing cloud sent rock death charge various sport prevent variety afraid body equal gentle population brief desert particularly post mix meat solution happened some ever bank poor lower symbol queen lot handsome return pleasure wall image chamber hand plane headed frighten star past end worker jungle sheep valuable earlier leaf pile fort section point pound neighbor away broken agree great gulf difficulty log instrument operation whether speak require whistle stronger no taste musical syllable order met every surrounded task truth guard monkey did inch women properly student possibly rocket route living itself moon floor border mile park however neighborhood chemical gentle differ private color natural touch naturally cloth mud like</div>
+    <div>ing cloud sent rock death charge various sport prevent variety afraid body equal gentle population brief desert particularly post mix meat solution happened some ever bank poor lower symbol queen lot handsome return pleasure wall image chamber hand plane headed frighten star past end worker jungle sheep valuable earlier leaf pile fort section point pound neighbor away broken agree great gulf difficulty log instrument operation whether speak require whistle stronger no taste musical syllable order met every surrounded task truth guard monkey did inch women properly student possibly rocket route living itself moon floor border mile park however neighborhood chemical gentle differ private color natural touch naturally cloth mud like</div>
+    <div>ing cloud sent rock death charge various sport prevent variety afraid body equal gentle population brief desert particularly post mix meat solution happened some ever bank poor lower symbol queen lot handsome return pleasure wall image chamber hand plane headed frighten star past end worker jungle sheep valuable earlier leaf pile fort section point pound neighbor away broken agree great gulf difficulty log instrument operation whether speak require whistle stronger no taste musical syllable order met every surrounded task truth guard monkey did inch women properly student possibly rocket route living itself moon floor border mile park however neighborhood chemical gentle differ private color natural touch naturally cloth mud like</div>
+    <div>ing cloud sent rock death charge various sport prevent variety afraid body equal gentle population brief desert particularly post mix meat solution happened some ever bank poor lower symbol queen lot handsome return pleasure wall image chamber hand plane headed frighten star past end worker jungle sheep valuable earlier leaf pile fort section point pound neighbor away broken agree great gulf difficulty log instrument operation whether speak require whistle stronger no taste musical syllable order met every surrounded task truth guard monkey did inch women properly student possibly rocket route living itself moon floor border mile park however neighborhood chemical gentle differ private color natural touch naturally cloth mud like</div>
+  </section>
+  <footer></footer>
+</body></html>
